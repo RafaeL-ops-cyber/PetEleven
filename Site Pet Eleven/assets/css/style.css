@@ -1,0 +1,663 @@
+/* MAIN */
+
+html {
+	display: grid;
+	background: #f1f3fa;
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	font-family: Georgia, serif;
+	padding: 0px;
+	margin: 0px;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+/* INDEX */
+
+.slide img {
+	display: none;
+	width: 100%;
+	height: 100%;
+}
+
+.slide.active img {
+	display: block;
+}
+
+.dots {
+	width: 100%;
+	height: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 5px;
+}
+
+.dot {
+	display: block;
+	width: 14px;
+	height: 14px;
+	border-radius: 50px;
+	background-color: #cdd4db;
+	margin-right: 18px;
+	cursor: pointer;
+}
+
+.dot.active {
+	background-color: #46adb8;
+	border: 2px solid #16a1af;
+}
+
+.title {
+	text-align: center;
+}
+
+.titleabaixo {
+	display: block;
+	float: left;
+	margin-left: 500px;
+}
+
+.main {
+	display: table;
+	margin-top: 45px;
+	margin-bottom: 30px;
+}
+
+.petsitter {
+	display: table-cell;
+	margin-right: 10px;
+	float: left;
+	margin-left: 500px;
+}
+
+.petsitter img {
+	width: 400px;
+	height: 300px;
+}
+
+.banhoetosa {
+	display: table-cell;
+	margin-right: 10px;
+	float: right;
+	margin-left: 100px;
+	
+}
+
+.banhoetosa img {
+	width: 400px;
+	height: 300px;
+}
+
+.pettext {
+	display: table-cell;
+	float: right;
+	width: 400px;
+	height: 300px;
+	margin-left: 100px;
+	font-size: 160%;
+}
+
+.banhotext {
+	display: table-cell;
+	float: left;
+	width: 400px;
+	height: 300px;
+	margin-left: 500px;
+	font-size: 160%;
+}
+
+.posts {
+	margin: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.posts .card {
+	float: left;
+	text-align: center;
+}
+
+.card {
+	width: 300px;
+	height: 250px;
+	margin-right: 10px;
+}
+
+.card .card-image img {
+	width: 300px;
+	height: 250px;
+	overflow: hidden;
+	border-radius: 10px;
+}
+
+.galeria{
+	margin-left: 250px;
+}
+
+/* CONTENT */
+
+/* CONTROLE */
+
+.text-box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.text-content {
+	text-align: left;
+	max-width: 2000px;
+	margin: 10px 20px 0px;
+}
+
+.text-content h2 {
+	text-align: center;
+}
+
+.content.controle h1 {
+	text-align: center;
+}
+
+.content.controle .text {
+	text-align: left;
+}
+
+.content.controle .text h2 {
+	font-size: 10px;
+}
+
+/* FAQ */
+
+.title {
+	display: flex;
+	justify-content: center;
+	font-size: 30px;
+	margin-top: 15px;
+}
+
+.text {
+	display: flex;
+	width: 700px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-size: 20px;
+}
+
+.text li {
+	margin-top: 20px;
+}
+
+.social-media-images {
+	display: grid;
+	justify-content: center;
+}
+
+.social-media {
+	display: inline;
+	align-self: center;
+	align-items: center;
+	justify-content: center;
+}
+
+.images {
+	display: flex;
+	margin-top: 12px;
+	width: 60px;
+	height: 60px;
+}
+
+.img1 {
+	background: url("assets/img/ico/facebook.png");
+	background-size: cover;
+}
+
+.img2 {
+	background: url("assets/img/ico/instagram.png");
+	background-size: cover;
+}
+
+.img3 {
+	background: url("assets/img/ico/twitter.png");
+	background-size: cover;
+}
+
+.img4 {
+	background: url("assets/img/ico/youtube.png");
+	background-size: cover;
+}
+
+/* SOBRE */
+
+.title {
+	display: flex;
+	justify-content: center;
+	font-size: 30px;
+	margin-top: 15px;
+}
+
+.text {
+	display: flex;
+	width: 700px;
+	margin-top: 30px;
+	margin-left: 20px;
+}
+
+.store {
+	display: inline;
+	align-self: center;
+	align-items: center;
+	justify-content: center;
+}
+
+.store-image {
+	display: flex;
+	width: 320px;
+	height: 320px;
+	margin-top: 15px;
+	margin-left: 30px;
+}
+
+.store .img1 {
+	background: url(/assets/img/about-page/pet-shop-about.png);
+	background-size: cover;
+}
+
+.store .img2 {
+	background: url(/assets/img/about-page/girl-pointer-about.jpg);
+	background-size: cover;
+	background-position-x: -70px;
+}
+
+.desc-area {
+	display: flex;
+}
+
+.housedog1 {
+	float: left;
+	width: 800px;
+	height: auto;
+	margin-right: 30px;
+}
+
+.fotos {
+	width: 30%;
+	display: inline-block;
+	margin-top: 5%;
+	margin-bottom: 2%;
+}
+
+.pagragrafo {
+	align-items: center;
+}
+
+/* VACINA */
+
+.title-area {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #f1f3fa;
+	width: 100%;
+	margin-top: 5px;
+}
+
+.textdescr {
+	width: 70%;
+	text-align: justify;
+	padding-left: 15%;
+	padding-right: 15%;
+	font-size: 22px;
+	float: center;
+	margin-top: 5px;
+	margin-bottom: 30px;
+}
+
+.blocos {
+	justify-content: center;
+	display: flex;
+}
+
+.tabelavac {
+	border: 2px solid rgb(70, 173, 184);
+	width: 50%;
+	padding-bottom: 20px;
+	float: left;
+	margin-left: 2.5%;
+	margin-right: 1.5%;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 15px;
+}
+
+.tabelavac table {
+	border: 1px solid black;
+	padding-top: 2.5%;
+	padding-bottom: 2.5%;
+	/*padding-left: 10px;
+	padding-right: 10px;*/
+	margin-top: 2%;
+	margin-bottom: 2%;
+	border-collapse: collapse;
+}
+
+.tabelavac table th {
+	border: 1px solid black;
+}
+
+.tabelavac table td {
+	border: 1px solid black;
+	text-align: center;
+	width: 18%;
+}
+
+.consultavac {
+	border: 2px solid rgb(6, 168, 67);
+	width: 40%;
+	padding-bottom: 20px;
+	float: right;
+	margin-left: 1.5%;
+	margin-right: 2.5%;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 15px;
+}
+
+.consultavac p {
+	text-align: center;
+	font-size: 25px;
+	font-weight: 600;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.consultavac ul li {
+	padding-bottom: 40px;
+}
+
+.consultavac li {
+	padding-left: 3%;
+}
+
+.blocosb {
+	justify-content: center;
+	display: flex;
+	margin-top: 20px;
+	border: 2px solid rgb(6, 168, 67);
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+	border-radius: 15px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+.endleft {
+	width: 17%;
+	float: left;
+	margin-left: 2.5%;
+	margin-right: 1.5%;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 15px;
+}
+
+.endleft img {
+	border-radius: 10px;
+}
+
+.endright {
+	width: 73%;
+	padding-bottom: 20px;
+	float: right;
+	margin-left: 1.5%;
+	margin-right: 2.5%;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 15px;
+}
+
+/* VETERINARIO */
+
+.title-area {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #8ac0bb;
+	width: 100%;
+	height: 142px;
+	margin-top: 0px;
+}
+
+.title-area img {
+	float: left;
+}
+
+.title-area h1 {
+	float: left;
+}
+
+.textdescr {
+	width: 70%;
+	text-align: justify;
+	padding-left: 15%;
+	padding-right: 15%;
+	font-size: 22px;
+	float: center;
+	margin-top: 30px;
+}
+
+.consulta {
+	border: 4px dashed RoyalBlue;
+	border-radius: 20px;
+	text-align: left;
+	font-size: 20px;
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding-bottom: 20px;
+}
+
+.consulta p {
+	text-align: center;
+	font-size: 25px;
+	font-weight: 600;
+}
+
+.consulta ul {
+	padding-left: 3%;
+}
+
+.blocos {
+	justify-content: center;
+	display: flex;
+}
+
+.especialidades {
+	border: 2px solid #8ac0bb;
+	width: 30%;
+	float: left;
+	margin-right: 25px;
+	margin-left: 25px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 10px;
+}
+
+.especialidades a {
+	text-align: justify;
+	font-weight: 400;
+}
+
+.profum {
+	border: 2px solid rgb(6, 168, 67);
+	width: 45%;
+	padding-bottom: 20px;
+	float: left;
+	margin-left: 2.5%;
+	margin-right: 1.5%;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 15px;
+}
+
+.profdois {
+	border: 2px solid rgb(6, 168, 67);
+	width: 45%;
+	padding-bottom: 20px;
+	float: right;
+	margin-left: 1.5%;
+	margin-right: 2.5%;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 15px;
+}
+
+.textdesc {
+	background: #ffadb8;
+	height: 100px;
+}
+
+/* HEADER */
+
+.top {
+	background: #16a1af;
+	width: 100%;
+	height: 100px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.logo {
+	float: left;
+	margin-left: 45vh;
+	width: 150px;
+	height: auto;
+}
+
+.logo.footer {
+	margin: 0px;
+	margin-top: 30px;
+	margin-right: 100px;
+	float: right;
+}
+
+.navbar {
+	background: #46adb8;
+	width: 100%;
+	height: 50px;
+	display: flex;
+	align-items: center;
+}
+
+.menu {
+	width: 90%;
+	height: 20px;
+	list-style: none;
+	float: left;
+}
+
+.menu li {
+	position: relative;
+	float: right;
+}
+
+.menu li a {
+	color: #333;
+	text-decoration: none;
+	padding: 5px 10px;
+	display: block;
+}
+
+.menu li a:hover {
+	background: #333;
+	color: #fff;
+	color: #fff;
+	-moz-box-shadow: 0 3px 10px 0 #CCC;
+	-webkit-box-shadow: 0 3px 10px 0 #ccc;
+	text-shadow: 0px 0px 5px #fff;
+}
+
+.menu li ul {
+	position: absolute;
+	top: 25px;
+	left: 0;
+	background-color: #46adb8;
+	display: none;
+}
+
+.menu li:hover ul, .menu li.over ul {
+	display: block;
+}
+
+.menu li ul li {
+	display: block;
+	width: 150px;
+}
+
+/* FOOTER */
+
+footer {
+	background: #06a843;
+	margin-top: 20px;
+	height: 200px;
+}
+
+.fastlinks {
+	padding-top: 20px;
+	text-align: center;
+}
+
+.fastlinks ul {
+	float: left;
+	list-style: none;
+	padding-left: 20px;
+}
+
+.fastlinks ul li a {
+	color: #000;
+	text-decoration: none;
+}
+
+.fastlinks ul li {
+	margin-top: 5px;
+}
+
+.link_title {
+	font-size: 24px;
+}
+
+.form-area {
+	margin: 20px;
+	position: relative;
+}
+
+.form-area .input {
+	padding-top: 10px;
+}
+
+.form-area form input, textarea {
+	display: block;
+	margin-top: 5px;
+}
+
+.form-area form button {
+	margin-top: 10px;
+	margin-left: 10%;
+}
+
+.form-area img {
+	position: absolute;
+	top: 50px;
+	right: 50px;
+}
+
+textarea {
+	resize: none;
+}
